@@ -1,0 +1,33 @@
+<html>
+
+
+  <head>
+
+  </head>
+
+  <body>
+<input type ="text" id ="surname" placeholder = "surname"  > </br></br>
+ <input type ="text" id = "firstName" placeholder = "First Name"></br></br>
+  <button onclick="findFullName();"> find Full Name </button> </br></br>
+   <span id ="fullNameDiv"></span>
+
+<script>
+const findFullName = () => {
+var  surname = document.getElementById("surname").value;
+surname = surname.toUpperCase();
+var firstName =  document.getElementById("firstName").value;
+
+var answer = firstName + " " + surname;
+// todo - ACCESS fullNameDiv USING document.getElementById AND SET THE innerHTML TO answer
+//......
+
+
+
+//.......
+}
+</script>
+
+</body>
+
+
+</html>
