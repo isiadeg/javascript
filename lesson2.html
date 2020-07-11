@@ -1,0 +1,23 @@
+<html>
+
+
+  <head>
+
+  </head>
+
+  <body>
+<input type ="number" id ="firstNumber" >  + <input type ="number" id = "secondNumber"> <button onclick="findAnswer();"> = </button>  <span id ="answerDiv"></span>
+
+<script>
+const findAnswer = () => {
+var  firstNumber = document.getElementById("firstNumber").value;
+var secondNumber =  document.getElementById("secondNumber").value;
+var answer = parseInt(firstNumber) + parseInt(secondNumber);
+document.getElementById("answerDiv").innerHTML = answer;
+}
+</script>
+
+</body>
+
+
+</html>
